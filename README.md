@@ -5,17 +5,17 @@
 
 Tecnologias Utilizadas nesse Projeto 
 
- .HTML5
+ 🚀.HTML5
  
- .CSS3
+ 🍀.CSS3
  
- .GITHUB
+ ✅.GITHUB
  
- .GITHUB PAGES
+ 🥰.GITHUB PAGES
  
- .GITHUB CONFIG
+ 💪🏻.GITHUB CONFIG
  
- .JAVASCRIPT
+ ❤️😍.JAVASCRIPT
  
- .GIT(versionamento de código)
+ 🫡🤝.GIT(versionamento de código)
  
