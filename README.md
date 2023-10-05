@@ -6,9 +6,16 @@
 Tecnologias Utilizadas nesse Projeto 
 
  .HTML5
+ 
  .CSS3
+ 
  .GITHUB
+ 
  .GITHUB PAGES
+ 
  .GITHUB CONFIG
+ 
  .JAVASCRIPT
+ 
  .GIT(versionamento de código)
+ 
