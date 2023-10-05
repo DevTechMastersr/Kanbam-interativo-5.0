@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>KanBan</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <nav>
+        <img src="./assets/favicon.png" alt="Logo do site" class="logo" />
+
+        <ul>
+          <li>
+            <a href="#" class="active">
+              <ion-icon name="tablet-portrait"></ion-icon>
+              Boards
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="people"></ion-icon>
+              Equipes
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="document-text"></ion-icon>
+              Relatórios
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="cog"></ion-icon>
+              Conteúdos
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <div class="inner">
+          <section class="title-avatar">
+            <h1>Meu KanBan <img src="./assets/pencil.svg" alt="" /></h1>
+            <img src="./assets/Lucas.jpg" alt="avatar" />
+          </section>
+
+          <section class="filter">
+            <button>
+              <ion-icon name="filter-outline"></ion-icon>
+              <span>Filtrar</span>
+            </button>
+            <div class="input-wrapper">
+              <ion-icon name="search-outline"></ion-icon>
+              <input
+                type="text"
+                placeholder="Busque por cards, assuntos ou responsáveis..."
+              />
+            </div>
+          </section>
+
+          <!-- section.kanban -->
+          <section class="kanban">
+            <div class="todo">
+              <h2>O que é HTML5 ?</h2>
+              <div class="cards">
+                <div class="card">
+                  <h3>Hypertext Markup Language 🧑🏾‍💻</h3>
+                  <p>
+                    É uma tecnologia chave da Internet,
+                    originalmente proposto por Opera Software.
+                    É a quinta versão da linguagem HTML. 
+                    Serve, basicamente, para o desenvolvimento de páginas que
+                    contenham conteúdos simples, como textos, imagens,
+                    áudio, vídeos e etc.
+                  </p>
+                  <div class="tags">
+                    <span>rocketseat</span>
+                    <span>desafio</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <h3>Como o Javascript Funciona ? 🔥</h3>
+                  <p>
+                    O JavaScript é amplamente categorizado como uma linguagem de criação de scripts ou uma linguagem interpretada. 
+                    O código em JavaScript é interpretado, ou seja, é traduzido diretamente no código de linguagem de máquina subjacente por um mecanismo de JavaScript. 
+                    Em outras linguagens de programação, um compilador compila todo o código em linguagem de máquina durante uma etapa distinta. 
+                    Portanto, todas as linguagens de criação de script são linguagens de programação, mas nem todas as linguagens de programação são linguagens de criação de script.
+                  </p>
+                  <div class="tags">
+                    <span>rocketseat</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="doing">
+              <h2> O QUE É O CSS3 ?</h2>
+              <div class="cards">
+                <div class="card">
+                  <h3>Cascading Style Sheets 🚀</h3>
+                  <p>
+                    É usado para estilizar elementos escritos em uma linguagem de marcação como HTML.
+                    O CSS separa o conteúdo da representação visual do site. 
+                    O CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos. 
+                    Criar tabelas, usar variações de layouts, ajustar imagens para suas respectivas
+                    telas e assim por diante.
+                  </p>
+                  <div class="tags">
+                    <span>rocketseat</span>
+                    <span>desafio</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="done">
+              <h2>O QUE É JAVASCRIPT ?</h2>
+              <div class="cards">
+                <div class="card">
+                  <h3>Extensões do arquivo: .JS .MJS 🧑‍💻</h3>
+                  <p>
+                    É uma linguagem de programação usada por desenvolvedores para fazer páginas interativas da Internet.
+                    As funções de JavaScript podem melhorar a experiência do usuário durante a navegação em um site,
+                    como, por exemplo, desde a atualização do feed na página da mídia social até a exibição de animações e mapas interativos. 
+                  </p>
+                  <div class="tags">
+                    <span>rocketseat</span>
+                    <span>desafio</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="done">
+                <h2>Qual Utilidade do Javascript ?</h2>
+                <div class="cards">
+                  <div class="card">
+                    <h3>Extensões do arquivo: .JS .MJS 🧑‍💻</h3>
+                    <p>
+                      Anteriormente, as páginas da Web eram estáticas como páginas em um livro. Uma página estática exibia basicamente informações
+                      em um layout fixo e não fazia tudo que esperamos de um site moderno hoje em dia. O JavaScript surgiu como uma tecnologia do
+                      lado do navegador para tornar as aplicações Web mais dinâmicas. Ao usar JavaScript, os navegadores passaram a ser capazes de
+                      responder a interações do usuário e alterar o layout do conteúdo na página.
+                    </p>
+                    <div class="tags">
+                      <span>rocketseat</span>
+                      <span>desafio</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </section>
+        </div>
+      </main>
+    </div>
+    
+    <!--Inicío do Javascript-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!--Final do JavaScript-->
+  </body>
+</html>
